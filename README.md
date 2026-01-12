@@ -1,6 +1,11 @@
-# Data-Scrapper-for-daftarsekolah.net
-During my time as a Data Analyst and Market Intern I was tasked with Data Scrapping from a website that provides list of schools that then can be used to provide information regarding schools around certain regions (Province, cities, etc.). 
+# Data Scraper for Daftarsekolah.net
 
-My supervisor tasked me with scrapping data of institutions or schools that were established by The Ministry of Religion (KEMENAG). I accessed daftarsekolah.net and began inserting the codes to scrap the data in Google Colab and ran the cells.
+During my tenure as a Data Analyst and Market Intern at Kelas Pintar, I was assigned a project to develop an automated data collection method from a public education directory — daftarsekolah.net. This website provides comprehensive listings of educational institutions across Indonesia, categorized by region, level, and type.
 
-The result, I obtained the data of the schools that were requested. Data scrapping method helps acquire data of these schools profiles much faster and effeciently. Manual data transfer could take almost half a day while processing the scraping sequence would only take around half an hour or 3 hours (depends on the amount of data being taken). The employee won't need to open the page one by one. 
+The primary objective of this task was to extract and compile structured data on schools under the supervision of the Ministry of Religious Affairs (KEMENAG), such as Madrasah Ibtidaiyah (MI), Madrasah Tsanawiyah (MTs), and Madrasah Aliyah (MA). These datasets were intended to support the company’s market research efforts by mapping the distribution and potential of schools in specific regions (provinces, cities, and districts).
+
+To achieve this, I designed and implemented a Python-based web scraping workflow using Google Colab. The scraping process utilized libraries such as Requests and BeautifulSoup to fetch HTML content and parse relevant information, including school names, locations, accreditation statuses, and contact details. I also configured automated pagination detection to ensure the scraper could navigate multiple pages without manual intervention.
+
+The data scraping solution proved to be significantly more efficient than manual data collection. While traditional copy-paste methods could take up to half a day to gather information from hundreds of pages, the automated script completed the same task in approximately 30 minutes to 3 hours, depending on data volume. This efficiency improvement enabled the marketing and business development teams to access updated and reliable school data on demand, reducing human error and freeing up valuable work time.
+
+Overall, this project not only enhanced data accessibility and accuracy but also demonstrated how data automation can accelerate business processes and improve decision-making. It was a valuable learning experience in combining data engineering techniques with practical business applications, strengthening my ability to deliver data-driven solutions in a real-world context.
